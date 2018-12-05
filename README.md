@@ -4,5 +4,4 @@ The reconstuct function takes takes a sequence of numbers, calculates its fourie
 
 We then plot the mean l2 loss of reconstruction for different size of sequences(for sequences of length 5 and above).
 
-
-![alt text](validation_plot.png)
+![alt text](reconstruction_error_validate.png)
