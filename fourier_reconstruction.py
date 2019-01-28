@@ -13,7 +13,7 @@ def reconstruct(arr,vals =1):
 	fft1=fft(arr)
 	fft1_s = fftshift(fft1)
 	fft1_s[:vals]=0
-	fft1_s[-vals:]=0
+	fft1_s[-vals:]=0 #doesn't work for corner case vals=0
 	ifft1 = ifft(ifftshift(fft1_s))
 	return ifft1.real
 
